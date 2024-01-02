@@ -1,0 +1,104 @@
+:root {
+    --bg-color: black;
+    --white: #fff;
+  }
+  
+  body {
+    font-size: 20px;
+    background-color: grey;
+    /* font-size: 1.75rem; /* which means 17.5px */ 
+  }
+  
+  .header {
+    background-color: var(--bg-color);
+    color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    color: lightseagreen;
+    text-align: left;
+    font-size: 100%;
+    margin-bottom: 10px;
+  }
+  
+  header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .header nav {
+    font-size: 100%;
+  
+  }
+  
+  .header nav ul {
+    list-style: none;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    font-size: 75%;
+    margin-right: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: var(--bg-color);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Work Section */
+  .work-project {
+    width: 50%; /* Adjust the width as needed */
+    margin: 1%; /* Adjust the margin as needed */
+    display: inline-block;
+  }
+  
+  .work-project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .work-project p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* my media qeuries */
+  @media screen and (min-width: 768px) {
+    main {
+      padding: 10px;
+    }
+  
+    .work-project {
+      width: 50%;
+      margin: 1%; 
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    header {
+      width: 75%;
+    }
+  
+    .work-project {
+      width: 35%; /* 33.333% is the original width, but leaving some space for margins */
+      margin: 1%;
+    }
+  }
+  
+  
