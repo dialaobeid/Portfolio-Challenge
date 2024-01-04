@@ -15,35 +15,17 @@ body {
   line-height: 1;
   font-family: 'Times New Roman', Times, serif;
   background-color: var(--bg-color); 
-  color: #333; 
+  color: grey; 
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2
+{
   font-size: 100%;
-  margin-bottom: 0.625rem;
-  color: grey; 
-  font-weight: 700;
+  color: white; 
   line-height: 1.1;
 }
 
-input,
-select,
-option,
-optgroup,
-textarea,
-button,
-pre,
-code {
-  font-size: 100%;
-  font-family: inherit;
-}
-
-ol,
 ul {
   list-style: none;
 }
