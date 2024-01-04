@@ -1,39 +1,55 @@
-:root {
+  :root {
     --bg-color: black;
     --white: #fff;
   }
   
-  body {
-    font-size: 20px;
-    background-color: grey;
-    /* font-size: 1.75rem; /* which means 17.5px */ 
-  }
-  
-  .header {
-    background-color: var(--bg-color);
-    color: lightblue;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: right;
+  main {
     padding: 20px;
   }
-  
-  .header h1 {
-    color: lightseagreen;
-    text-align: left;
-    font-size: 100%;
-    margin-bottom: 10px;
+
+  .aboutme, .work, .contact, .resume {
+    margin-bottom: 50px;
+  }
+
+  body {
+    font-size: 17.5px;
+    background-color: rgb(37, 37, 37);
+    line-height: 1.1;
+  }
+
+  /* css for header */
+  .header {
+    background-color: var(--bg-color);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    padding: 20px 0;
+    min-height: 200px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center; 
   }
   
   header img {
-    border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 50%; /* to make it round */
   }
-  
+
+  /* css for nav section */
+  .header a {
+    color: #178364;
+    text-decoration: none;
+  }
+
+  .header a:hover::after { /* trying to make it change color when hovering mouse */
+    color: #fff;
+    text-decoration: underline;
+  }
+
   .header nav {
-    font-size: 100%;
-  
+    font-size: 1rem;
   }
   
   .header nav ul {
@@ -41,15 +57,29 @@
   }
   
   .header nav ul li {
-    display: inline;
-    font-size: 75%;
+    display: inline-block;
+    font-size: 1.5rem;
     margin-right: 10px;
   }
-  
-  main {
-    padding: 20px;
+
+  /* css for h1 and h2 */
+  .header h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(21, 128, 123);
+    font-size: 3rem; 
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: rgb(21, 128, 123);
+    text-align: left;
+    font-size: 2rem; 
+    padding: 10px;
+    margin-bottom: 10px;
   }
   
+  /* css for footer */ 
   footer {
     background-color: var(--bg-color);
     color: #fff;
@@ -60,28 +90,34 @@
     width: 100%;
   }
   
-  /* Work Section */
-  .work-project {
-    width: 50%; /* Adjust the width as needed */
-    margin: 1%; /* Adjust the margin as needed */
-    display: inline-block;
+  /* css for Work Section */
+  .work-projects {
+    width: 100%; 
+    margin-bottom: 50px; 
+
+    display: flex; /* flexbox for the work items */
+    flex-wrap: wrap; 
+    justify-content:center; 
   }
-  
+
   .work-project img {
     width: 100%;
     height: auto;
     border-radius: 8px;
   }
-  
+
   .work-project p {
     margin-top: 10px;
     text-align: center;
   }
   
-  /* my media qeuries */
+
+
+  
+  /* my media queries */
   @media screen and (min-width: 768px) {
     main {
-      padding: 10px;
+      padding: 20px;
     }
   
     .work-project {
@@ -92,13 +128,13 @@
   
   @media screen and (min-width: 992px) {
     header {
-      width: 75%;
+      width: 100%;
     }
   
     .work-project {
-      width: 35%; /* 33.333% is the original width, but leaving some space for margins */
+      width: 35%; 
       margin: 1%;
-    }
+    } 
   }
   
   
