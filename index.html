@@ -11,12 +11,12 @@
 
 <body>
 <header class="header">
-  <h1>Diala Obeid</h1>
-  <img src="assets/images/MyAvatar.jpg" alt="My Avatar">
+  <h1>Diala Obeid<img src="assets/images/MyAvatar.jpg" alt="My Avatar"></h1> <!-- to make sure avatar stays fixed with h1-->
+
   <!-- The 4 links that should be on header-->
   <nav>
     <ul>
-      <li><a href="#about">About Me</a></li>
+      <li><a href="#aboutme">About Me</a></li>
       <li><a href="#work">My Work</a></li>
       <li><a href="#contact">Contact Me</a></li>
       <li><a href="#resume">Resume</a></li>
@@ -25,37 +25,45 @@
 </header>
 
 <main>
-  <section id="aboutme">
-    <h1>About Me</h1>
+    <!--added ID element to the About Me section for link to work when clicked on-->
+  <section id="aboutme" class="aboutme">
+    <h2>About Me</h2>
+    <!-- Short bio about me showcasing educational bg and work skills-->
     <p>
-      I am a recently graduated student from UCI with a bachelor's degree in biological sciences.  
-      My hobbies include sketching, kickboxing and exploring different foods. 
-      My current goal is to become a Physician associate. I am currently working as an EMT in Orange county to gain the patient care experience needed for Physician Associate programs.
+      My skills include: 1 2 3
     </p>
   </section>
 
-  <section id="work">
+  <section id="work" class="work">
     <h2>My Work</h2>
-    <div class="work-project">
-      <img src="assets/images/project1.jpg" alt="Project 1">
-      <p>This is my Module 1 challenge where I had to </p>
+    <!-- Content for my projects-->
+    <div class="work-projects">
+      <div class="work-project"> 
+        <img src="assets/images/M1C.pdf" alt="Project 1">
+        <p>This challenge included refactoring the HMTL and CSS code to improve the application</p>
+      </div>  
+
+      <div class="work-project"> 
+        <img src="assets/images/MP1.pdf" alt="Project 2">
+        <p>This project included building a landing page using HTML and CSS code</p>
+      </div>
     </div>
-
-<div class="work-project">
-  <img src="assets/images/project2.jpg" alt="Project 2">
-  <p>Project 2 Description</p>
-</div>
-
   </section>
 
-  <section id="contact">
+  <section id="contact" class="contact">
     <!-- Contact Content -->
-    <h2>Contact</h2>
+    <h2>Contact Me</h2>
+        <ul>
+        <li><a href="https://github.com/dialaobeid">Github</a></li>
+        <li><a href="dialajo9@gmail.com">Email</a></li>
+        <li>(999)-999-9999</li>
+        </ul>
   </section>
 
-  <section id="resume">
+  <section id="resume" class="resume">
     <!-- Resume Content -->
-    <h2>Resume</h2>
+    <h2>My Resume</h2>
+    <!--link resume here-->
   </section>
 
 </main>
