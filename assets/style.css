@@ -104,6 +104,8 @@
   /* css for about me section */
   .aboutme p {
     margin-bottom: 15px;
+    margin-left: 40px;
+    padding-right: 20px;
   }
 
   /* css for Work section */
@@ -130,11 +132,17 @@
     padding: 50px;
     margin: 10px; 
     background-color: lightblue;
+    width: 100%;
   }
 
   .work-project:hover {
     box-shadow: 0 0 10px 10px grey;
     border-radius: 8px;               
+  }
+
+  .module-challenge {
+    order: -1; /* makes mod 1 ch at the top */
+    width: 100%;
   }
   
   /* css for Contact me section */
@@ -156,6 +164,11 @@
     .work-projects {
       flex-direction: column;
     }
+
+    .work-project {
+      width: 100%;
+      margin-bottom: 5px;
+    } 
   }
 
   @media screen and (min-width: 768px) {
