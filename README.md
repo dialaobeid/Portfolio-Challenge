@@ -21,7 +21,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Only the module 1 challenge is deployable. Projects 1 and 2 will deploy to github page since they are placed as placeholders for now. 
 
 Screenshot:
-/Users/dialaobeid/Documents/GitHub/Portfolio-Challenge/MyPortfolio-Challenge/images/Project-Screenshot.png
+![Alt Text](/images/Project-Screenshot.png)
 
 Link to github repository for this project:
 https://github.com/dialaobeid/Portfolio-Challenge/tree/main
