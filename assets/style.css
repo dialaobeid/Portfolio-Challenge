@@ -1,7 +1,7 @@
   :root {
     --bg-color: rgb(63, 60, 60);
     --white: #fff;
-    --header: rgb(21, 128, 123);
+    --header: rgb(24, 156, 147);
     --project: rgb(5, 94, 5);
   }
   
@@ -45,11 +45,6 @@
     text-decoration: none;
   }
 
-  .header a:hover::after { /* trying to make it change color when hovering mouse */
-    color: #fff;
-    text-decoration: underline;
-  }
-
   .header nav {
     font-size: 1rem;
   }
@@ -84,7 +79,6 @@
   
   h3 {
     color: var(--bg-color);
-    text-transform: capitalize;
     text-align: center;
     font-size: 2rem;
     padding: 10px;
@@ -130,9 +124,11 @@
     outline: 2px solid var(--project);
     /* styling the items to fixed sizes */ 
     padding: 50px;
-    margin: 10px; 
-    background-color: lightblue;
+    margin: 5px; 
     width: 100%;
+    /* adding images as a background - adding image fouund online */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRuN5fy0sNPzAdDLq3RyJlUIsycR0LfwBm6w&usqp=CAU'); 
+    background-size: cover;
   }
 
   .work-project:hover {
@@ -141,8 +137,8 @@
   }
 
   .module-challenge {
-    order: -1; /* makes mod 1 ch at the top */
     width: 100%;
+    flex-grow: 1; /* makes this item larger than the others */
   }
   
   /* css for Contact me section */
