@@ -18,6 +18,9 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+Only the module 1 challenge is deployable. Projects 1 and 2 will deploy to github page since they are placed as placeholders for now. 
+
+
 Link to github repository for this project:
 https://github.com/dialaobeid/Portfolio-Challenge/tree/main
 
