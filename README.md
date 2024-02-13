@@ -18,10 +18,10 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
- The Module 1 challenge and Project 1 are deployable. Projects 1 & 2 will deploy to my github page since they are placed as placeholders for now. 
+ The Module 1 challenge and Project 1 are deployable. Project 2 will deploy to my github page since it is a placeholder for now. 
 
 Screenshot:
-![Alt Text](/images/Project-Screenshot.png)
+![Alt Text](/images/Screenshot-2.png)
 
 Link to github repository for this project:
 https://github.com/dialaobeid/Portfolio-Challenge/tree/main
