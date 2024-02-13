@@ -140,6 +140,11 @@
     width: 100%;
     flex-grow: 1; /* makes this item larger than the others */
   }
+
+  .project-challenge {
+    width: 100%;
+    flex-grow: 1; /* makes this item larger than the others */
+  }
   
   /* css for Contact me section */
   .contact ul {
